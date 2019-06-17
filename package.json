@@ -1,11 +1,11 @@
 {
-  "name": "v4",
-  "description": "Personal Website V4",
+  "name": "nikospap",
+  "description": "Nikos Pap Personal Website",
   "version": "1.0.0",
-  "author": "Brittany Chiang <brittany.chiang@gmail.com>",
+  "author": "Nikos Papageorgiou <admin@nikospap.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bchiang7/v4"
+    "url": "https://github.com/nikospapcom/nikospap.com.git"
   },
   "keywords": [
     "gatsby"
