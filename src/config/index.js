@@ -52,7 +52,7 @@ module.exports = {
   ],
 
   twitterHandle: '@Nick_Pap21',
-  // googleAnalyticsID: 'UA-45666519-2',
+  googleAnalyticsID: 'UA-72531041-1',
 
   navHeight: 100,
 
