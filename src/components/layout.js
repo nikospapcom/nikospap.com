@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { StaticQuery, graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 import { Head, Loader, Nav, Social, Email, Footer } from '@components';
@@ -41,22 +41,10 @@ const SkipToContent = styled.a`
 
 const Layout = ({ children }) => {
   const [isLoading, setIsLoading] = useState(true);
-  const [githubInfo, setGithubInfo] = useState({
+  const [githubInfo] = useState({
     stars: null,
     forks: null,
   });
-
-  useEffect(() => {
-    fetch('https://api.github.com/repos/bchiang7/v4')
-      .then(response => response.json())
-      .then(json => {
-        const { stargazers_count, forks_count } = json;
-        setGithubInfo({
-          stars: stargazers_count,
-          forks: forks_count,
-        });
-      });
-  }, []);
 
   return (
     <StaticQuery
