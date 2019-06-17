@@ -7,7 +7,7 @@ module.exports = {
   siteUrl: 'https://nikospap.com',
   siteLanguage: 'en_US',
 
-  // googleVerification: 'DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk',
+  googleVerification: 'KSTWsfvBPhaV7mGXTCEN0_2BNNpeCzGgnOscpXiZ4dU',
 
   name: 'Nikos Papageorgiou',
   location: 'Athens, Greece',
