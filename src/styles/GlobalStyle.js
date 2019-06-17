@@ -12,7 +12,7 @@ const GlobalStyle = createGlobalStyle`
     url(${fontFamilies.CalibreLightTTF}) format('truetype');
     font-weight: 300;
     font-style: normal;
-    font-display: auto;
+    font-display: swap;
   }
   @font-face {
     font-family: 'Calibre';
@@ -21,7 +21,7 @@ const GlobalStyle = createGlobalStyle`
     url(${fontFamilies.CalibreLightItalicTTF}) format('truetype');
     font-weight: 300;
     font-style: italic;
-    font-display: auto;
+    font-display: swap;
   }
   @font-face {
     font-family: 'Calibre';
@@ -30,7 +30,7 @@ const GlobalStyle = createGlobalStyle`
     url(${fontFamilies.CalibreRegularTTF}) format('truetype');
     font-weight: normal;
     font-style: normal;
-    font-display: auto;
+    font-display: swap;
   }
   @font-face {
     font-family: 'Calibre';
@@ -39,7 +39,7 @@ const GlobalStyle = createGlobalStyle`
     url(${fontFamilies.CalibreRegularItalicTTF}) format('truetype');
     font-weight: normal;
     font-style: italic;
-    font-display: auto;
+    font-display: swap;
   }
   @font-face {
     font-family: 'Calibre';
@@ -48,7 +48,7 @@ const GlobalStyle = createGlobalStyle`
     url(${fontFamilies.CalibreMediumTTF}) format('truetype');
     font-weight: 500;
     font-style: normal;
-    font-display: auto;
+    font-display: swap;
   }
   @font-face {
     font-family: 'Calibre';
@@ -57,7 +57,7 @@ const GlobalStyle = createGlobalStyle`
     url(${fontFamilies.CalibreMediumItalicTTF}) format('truetype');
     font-weight: 500;
     font-style: italic;
-    font-display: auto;
+    font-display: swap;
   }
   @font-face {
     font-family: 'Calibre';
@@ -66,7 +66,7 @@ const GlobalStyle = createGlobalStyle`
     url(${fontFamilies.CalibreSemiboldTTF}) format('truetype');
     font-weight: 600;
     font-style: normal;
-    font-display: auto;
+    font-display: swap;
   }
   @font-face {
     font-family: 'Calibre';
@@ -75,7 +75,7 @@ const GlobalStyle = createGlobalStyle`
     url(${fontFamilies.CalibreSemiboldItalicTTF}) format('truetype');
     font-weight: 600;
     font-style: italic;
-    font-display: auto;
+    font-display: swap;
   }
   @font-face {
     font-family: 'SF Mono';
@@ -84,7 +84,7 @@ const GlobalStyle = createGlobalStyle`
     url(${fontFamilies.SFMonoRegularTTF}) format('truetype');
     font-weight: normal;
     font-style: normal;
-    font-display: auto;
+    font-display: swap;
   }
   @font-face {
     font-family: 'SF Mono';
@@ -93,7 +93,7 @@ const GlobalStyle = createGlobalStyle`
     url(${fontFamilies.SFMonoRegularItalicTTF}) format('truetype');
     font-weight: normal;
     font-style: italic;
-    font-display: auto;
+    font-display: swap;
   }
   @font-face {
     font-family: 'SF Mono';
@@ -102,7 +102,7 @@ const GlobalStyle = createGlobalStyle`
     url(${fontFamilies.SFMonoMediumTTF}) format('truetype');
     font-weight: 500;
     font-style: normal;
-    font-display: auto;
+    font-display: swap;
   }
   @font-face {
     font-family: 'SF Mono';
@@ -111,7 +111,7 @@ const GlobalStyle = createGlobalStyle`
     url(${fontFamilies.SFMonoMediumItalicTTF}) format('truetype');
     font-weight: 500;
     font-style: italic;
-    font-display: auto;
+    font-display: swap;
   }
   @font-face {
     font-family: 'SF Mono';
@@ -120,7 +120,7 @@ const GlobalStyle = createGlobalStyle`
     url(${fontFamilies.SFMonoSemiboldTTF}) format('truetype');
     font-weight: 600;
     font-style: normal;
-    font-display: auto;
+    font-display: swap;
   }
   @font-face {
     font-family: 'SF Mono';
@@ -129,7 +129,7 @@ const GlobalStyle = createGlobalStyle`
     url(${fontFamilies.SFMonoSemiboldItalicTTF}) format('truetype');
     font-weight: 600;
     font-style: italic;
-    font-display: auto;
+    font-display: swap;
   }
 
   html {
