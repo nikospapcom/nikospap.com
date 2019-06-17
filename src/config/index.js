@@ -12,7 +12,7 @@ module.exports = {
   name: 'Nikos Papageorgiou',
   location: 'Athens, Greece',
   email: 'admin@nikospap.com',
-  github: 'https://github.com/bchiang7/',
+  github: 'https://github.com/nikospapcom',
   socialMedia: [
     {
       name: 'Github',
