@@ -1,6 +1,6 @@
 ---
 title: 'About Me'
-avatar: './nikos.jpg'
+avatar: './nikos_alt.jpg'
 skills:
   - JavaScript (ES6+)
   - HTML & (S)CSS
