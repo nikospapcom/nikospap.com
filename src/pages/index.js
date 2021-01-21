@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import { Layout, Hero, About, Jobs, Featured, Contact } from '@components';
 import styled from 'styled-components';
 import { mixins, Main } from '@styles';
+import Helmet from 'react-helmet';
 
 const MainContainer = styled(Main)`
   ${mixins.sidePadding};
@@ -12,6 +13,9 @@ const MainContainer = styled(Main)`
 
 const IndexPage = ({ data }) => (
   <Layout>
+    <Helmet>
+      <script async defer data-domain="nikospap.com" src="https://plausible.io/js/plausible.js" />
+    </Helmet>
     <MainContainer id="content">
       <Hero data={data.hero.edges} />
       <About data={data.about.edges} />

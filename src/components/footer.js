@@ -98,7 +98,6 @@ const Footer = () => (
       </GithubLink>
       for gatsby theme
     </CopyThanks>
-    <script async defer data-domain="nikospap.com" src="https://plausible.io/js/plausible.js"></script>
   </FooterContainer>
 );
 
