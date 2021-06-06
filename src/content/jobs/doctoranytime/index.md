@@ -3,7 +3,7 @@ date: '2015-02-01'
 title: 'Front End Engineer'
 company: 'doctoranytime'
 location: 'Athens, Greece'
-range: 'February 2015 - Present'
+range: 'February 2015 - May 2021'
 url: 'https://doctoranytime.gr'
 ---
 
